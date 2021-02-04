@@ -1,0 +1,68 @@
+/* General Styling */
+main,.container,.container-fluid {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* padding-right: 100px; */
+    /* padding-left: 100px; */
+}
+img {
+    max-width: 100; 
+}
+
+/* Nav Styling  */
+.nav-link {
+    font-size: x-medium;
+    padding: 10px/*horz*/ 10px; /*distance between elements*/
+    margin-right: 3em; /*em relative to device using website*/
+}
+
+nav {
+    background-color: white;
+}
+
+/*Home Styling*/
+h1 {
+    font-size: 6rem;
+    text-align: center;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+#tagline {
+    text-align: center;
+    font-size: 3rem;
+    color: pink;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+/* Project Styling */
+.carousel-caption {
+    color: white
+}
+
+/* Skills Styling */
+.ion-icons {
+    font-size: 64px;
+    margin-top: 20px;
+}
+
+.progress-bar {
+    background-color: cornflowerblue !important;
+
+}
+
+/*Footer Styling*/
+footer {
+    padding: 5rem 0;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+}
